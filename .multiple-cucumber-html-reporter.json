@@ -1,0 +1,30 @@
+{
+  "jsonDir": "./reports",
+  "reportPath": "./reports/html",
+  "pageTitle": "OrangeHRM Test Report",
+  "reportName": "OrangeHRM Senior QA Automation Report",
+  "displayDuration": true,
+  "displayReportTime": true,
+
+  "customData": {
+    "title": "Test Execution Details",
+    "data": [
+      {
+        "label": "Project",
+        "value": "OrangeHRM Senior QA Assessment"
+      },
+      {
+        "label": "Executed By",
+        "value": "Rajitha Chandrasekhar"
+      },
+      {
+        "label": "Framework",
+        "value": "Cucumber BDD + Playwright + TypeScript"
+      },
+      {
+        "label": "Environment",
+        "value": "OrangeHRM Demo"
+      }
+    ]
+  }
+}

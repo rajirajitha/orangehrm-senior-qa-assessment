@@ -1,0 +1,26 @@
+{
+  "name": "orangehrm-senior-qa-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js",
+  "test:smoke": "cucumber-js --tags \"@smoke\"",
+  "test:regression": "cucumber-js --tags \"@regression\"",
+  "test:report": "mchr && node update-report.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4",
+    "multiple-cucumber-html-reporter": "^4.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.6"
+  }
+}
