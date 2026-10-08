@@ -273,6 +273,7 @@ The report is generated under:
 
 ```text
 reports/html/index.html
+**Test Execution Report:** `reports/html/index.html`
 ```
 
 Open the report:
