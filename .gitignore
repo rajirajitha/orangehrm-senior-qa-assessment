@@ -3,6 +3,8 @@ node_modules/
 
 reports/*
 !reports/.gitkeep
+!reports/html/
+!reports/html/index.html
 
 screenshots/*
 !screenshots/.gitkeep
